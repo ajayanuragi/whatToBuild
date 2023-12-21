@@ -12,6 +12,7 @@ WhatToBuild is a simple backend project that allows users to share and like crea
   - [Adding an Idea](#adding-an-idea)
   - [Retrieving All Ideas](#retrieving-all-ideas)
   - [Liking an Idea](#liking-an-idea)
+- [Built With](#built-with)
 
 
 ## Features
@@ -48,6 +49,7 @@ Make sure you have the following tools installed:
    ./mvnw spring-boot:run
 
 The application will be accessible at http://localhost:8080.
+Note: Change db-url to your url for mongoDB database.
 
 ## Usage
 ### Adding an Idea
@@ -103,7 +105,21 @@ To like an idea, send a POST request with the user ID in the headers:
 3. **Set Headers**:
    - Add the `Content-Type` header with the value `application/json`.
    - Add the `user-id` header with the user ID.
+   - Note(user ID could be anything, Planning to ask this from client in future)
 
 4. **Send Request**:
    - Click the "Send" button in Postman to make the POST request.
+
+# Built With
+
+This project was built using the following tools and technologies:
+
+- [Java](https://www.oracle.com/java/technologies/javase-downloads.html): Programming language used for the backend.
+- [Spring Boot](https://spring.io/projects/spring-boot): Framework for building Java-based applications.
+- [Maven](https://maven.apache.org/): Build tool for managing dependencies and building the project.
+- [Postman](https://www.postman.com/): API development and testing tool used for interacting with the backend API.
+- [MongoDB](https://www.mongodb.com/): NoSQL database used for data storage.
+
+Feel free to explore the links to learn more about each tool.
+  
    
