@@ -49,7 +49,8 @@ Make sure you have the following tools installed:
    ./mvnw spring-boot:run
 
 The application will be accessible at http://localhost:8080.
-Note: Change db-url to your url for mongoDB database.
+
+#### Note: Change db-url to your url for mongoDB database in application.yml file.
 
 ## Usage
 ### Adding an Idea
